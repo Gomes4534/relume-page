@@ -119,21 +119,20 @@ section {
 
     display: flex;
     padding: 64px 112px;
-    justify-content: center;
-    align-items: center;
 }
 
 .section-title {
     display: flex;
     gap: 16px;
     flex-direction: column;
-
 }
 
-h1 {
+.section-title > h1 {
     color: black;
+    display: flex;
+    justify-content: flex-start;
 }
 
-p {
+.section-title > p {
     color: black;
 }
