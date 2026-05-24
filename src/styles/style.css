@@ -177,3 +177,44 @@ textarea {
     background-color: black;
     color: white;
 }
+
+footer {
+    width: 100%;
+
+    display: flex;
+    gap: 80px;
+    padding: 64px 80px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 32px;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    border-top: 1px solid #000000;
+}
+
+.footer-bottom > nav > a {
+    font-size: 14px;
+    color: #000000;
+}
+
+.footer-bottom > p {
+    color: #000000;
+    font-size: 14px;
+}
+
